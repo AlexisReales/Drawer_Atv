@@ -7,3 +7,12 @@ Drawer Instalation:
 Gesture Handle:
 
     npx expo install react-native-gesture-handler
+
+Babel config:
+
+    return {
+    presets: ['babel-preset-expo'],
+    plugins: [
+    'react-native-reanimated/plugin',
+    ],
+    };
